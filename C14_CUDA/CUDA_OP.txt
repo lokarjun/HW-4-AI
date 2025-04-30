@@ -1,0 +1,3 @@
+CUDA Kernel time: 51.665440 ms
+Fib[N-1] = 0
+Total program time: 247.505327 ms
