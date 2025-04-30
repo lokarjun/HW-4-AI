@@ -1,0 +1,2 @@
+!nvcc -o saxpy_exec saxpy.cu
+!./saxpy_exec

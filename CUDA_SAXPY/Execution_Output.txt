@@ -1,0 +1,11 @@
+2^15: 0.007889 seconds
+2^16: 0.000003 seconds
+2^17: 0.000002 seconds
+2^18: 0.000002 seconds
+2^19: 0.000003 seconds
+2^20: 0.000002 seconds
+2^21: 0.000002 seconds
+2^22: 0.000003 seconds
+2^23: 0.000004 seconds
+2^24: 0.000005 seconds
+2^25: 0.000006 seconds
