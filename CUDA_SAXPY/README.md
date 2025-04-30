@@ -1,5 +1,7 @@
 # Challenge #13: CUDA SAXPY Benchmarking
 
+Google Collab Link - https://colab.research.google.com/drive/1vd__hiEtBtgNc3en1ONEcAtwTgLw-I01?usp=sharing
+
 ## 🚀 Objective
 The goal of this challenge was to explore and benchmark the performance of the SAXPY operation (`y = a*x + y`) using CUDA on increasing input sizes. This included profiling kernel execution, measuring memory transfer times, and visualizing the results to understand how GPU efficiency scales with problem size.
 
@@ -12,7 +14,7 @@ The goal of this challenge was to explore and benchmark the performance of the S
 
 ## 🛠 Environment
 - **Platform**: Google Colab
-- **GPU**: NVIDIA Tesla K80
+- **GPU**: T4 GPU
 - **Compiler**: `nvcc` for `.cu` files
 - **Visualization**: Python + Matplotlib
 
@@ -41,12 +43,11 @@ GPT-4 assisted in:
 ## 📂 Files Included
 - `saxpy.cu`: Modified CUDA kernel code
 - `saxpy_exec`: Compiled CUDA binary (created in Colab)
-- `saxpy_times.csv`: Benchmark results
-- `plot_saxpy.py`: Python script for visualizing timing data
+- `Execution_output`: Benchmark results
+- `plot.py`: Python script for visualizing timing data
 
 ## 📌 Conclusion
 This challenge provided hands-on experience with CUDA development, profiling, and performance analysis. It also highlighted the impact of problem size on GPU efficiency and the importance of separating memory transfer vs. kernel execution when benchmarking.
 
 ---
 
-✅ **Completed as part of Challenge #13 for CUDA benchmarking exploration.**
