@@ -1,1 +1,1 @@
-
+The summary doc distills key insights from the 2023 IRDS Beyond CMOS report, covering emerging devices, materials, and architectures poised to extend or surpass CMOS technology. It highlights advances in logic, memory, security, and alternative computing paradigms essential for the future of nanoelectronics.
