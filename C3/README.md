@@ -1,1 +1,2 @@
 
+This challenge explores physical systems that inherently solve differential equations through their natural dynamics, without executing step-by-step instructions like a digital processor. Examples include analog computers using op-amps and RLC circuits, mechanical spring-mass-damper systems, and even neuromorphic hardware inspired by the brain. These systems leverage the physics of their components to perform real-time, energy-efficient computation that maps directly to mathematical models.
