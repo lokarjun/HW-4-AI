@@ -48,15 +48,13 @@ col4 → 1.494024 V → 1.494024 A
 
 ## 🔗 Google Colab Notebook
 
-👉 _Insert your Colab link here:_  
-[Google Colab Notebook](https://colab.research.google.com/)
+https://colab.research.google.com/drive/17HuCBglGQlNK5bTqgHoXPlr4d6YAIYU9?usp=sharing
 
 ---
 
 ## 📁 Files Included
 
-- `crossbar_4x4.cir`: SPICE netlist defining the crossbar structure
-- `parse_results.py`: Python logic to run Ngspice and parse output
+- `Findings`: Documenatation of the findings
 - `README.md`: This file
 
 ---
