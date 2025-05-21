@@ -1,0 +1,129 @@
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Unit top modules: lif_neuron_tb."
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 5 (100.00%) other processes in SLP
+# SLP: 12 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4675 kB (elbread=427 elab2=4111 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: Starting LIF Neuron Testbench...
+# KERNEL: T=0 | Updated_P(t)=X | Decayed_P(t)=X | Input=0 | Spike=x
+# KERNEL: T=5000 | Input=0 | Spike=0
+# KERNEL: T=5000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: 
+# KERNEL: Test 1: Constant low input (should not spike)
+# KERNEL: T=15000 | Input=0 | Spike=0
+# KERNEL: T=15000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=25000 | Input=0 | Spike=0
+# KERNEL: T=25000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=35000 | Input=0 | Spike=0
+# KERNEL: T=35000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=45000 | Input=0 | Spike=0
+# KERNEL: T=45000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=55000 | Input=0 | Spike=0
+# KERNEL: T=55000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=65000 | Input=0 | Spike=0
+# KERNEL: T=65000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=75000 | Input=0 | Spike=0
+# KERNEL: T=75000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=85000 | Input=0 | Spike=0
+# KERNEL: T=85000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=95000 | Input=0 | Spike=0
+# KERNEL: T=95000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: T=105000 | Input=0 | Spike=0
+# KERNEL: T=105000 | Updated_P(t)=0 | Decayed_P(t)=0 | Input=0 | Spike=0
+# KERNEL: 
+# KERNEL: Test 2: Gradual accumulation to reach threshold
+# KERNEL: T=115000 | Input=1 | Spike=0
+# KERNEL: T=115000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=125000 | Input=1 | Spike=0
+# KERNEL: T=125000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=135000 | Input=1 | Spike=1
+# KERNEL: T=135000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=145000 | Input=1 | Spike=0
+# KERNEL: T=145000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=155000 | Input=1 | Spike=1
+# KERNEL: T=155000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=165000 | Input=1 | Spike=0
+# KERNEL: T=165000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=175000 | Input=1 | Spike=1
+# KERNEL: T=175000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=185000 | Input=1 | Spike=0
+# KERNEL: T=185000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=195000 | Input=1 | Spike=1
+# KERNEL: T=195000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=205000 | Input=1 | Spike=0
+# KERNEL: T=205000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=215000 | Input=1 | Spike=1
+# KERNEL: T=215000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=225000 | Input=1 | Spike=0
+# KERNEL: T=225000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=235000 | Input=1 | Spike=1
+# KERNEL: T=235000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=245000 | Input=1 | Spike=0
+# KERNEL: T=245000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: T=255000 | Input=1 | Spike=1
+# KERNEL: T=255000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: 
+# KERNEL: Test 3: Leakage without input
+# KERNEL: T=265000 | Input=0 | Spike=0
+# KERNEL: T=265000 | Updated_P(t)=251 | Decayed_P(t)=251 | Input=0 | Spike=0
+# KERNEL: T=275000 | Input=0 | Spike=0
+# KERNEL: T=275000 | Updated_P(t)=246 | Decayed_P(t)=246 | Input=0 | Spike=0
+# KERNEL: T=285000 | Input=0 | Spike=0
+# KERNEL: T=285000 | Updated_P(t)=241 | Decayed_P(t)=241 | Input=0 | Spike=0
+# KERNEL: T=295000 | Input=0 | Spike=0
+# KERNEL: T=295000 | Updated_P(t)=236 | Decayed_P(t)=236 | Input=0 | Spike=0
+# KERNEL: T=305000 | Input=0 | Spike=0
+# KERNEL: T=305000 | Updated_P(t)=231 | Decayed_P(t)=231 | Input=0 | Spike=0
+# KERNEL: T=315000 | Input=0 | Spike=0
+# KERNEL: T=315000 | Updated_P(t)=226 | Decayed_P(t)=226 | Input=0 | Spike=0
+# KERNEL: T=325000 | Input=0 | Spike=0
+# KERNEL: T=325000 | Updated_P(t)=221 | Decayed_P(t)=221 | Input=0 | Spike=0
+# KERNEL: T=335000 | Input=0 | Spike=0
+# KERNEL: T=335000 | Updated_P(t)=216 | Decayed_P(t)=216 | Input=0 | Spike=0
+# KERNEL: T=345000 | Input=0 | Spike=0
+# KERNEL: T=345000 | Updated_P(t)=211 | Decayed_P(t)=211 | Input=0 | Spike=0
+# KERNEL: T=355000 | Input=0 | Spike=0
+# KERNEL: T=355000 | Updated_P(t)=206 | Decayed_P(t)=206 | Input=0 | Spike=0
+# KERNEL: 
+# KERNEL: Test 4: Strong input causing immediate spiking
+# KERNEL: T=365000 | Input=1 | Spike=0
+# KERNEL: T=365000 | Updated_P(t)=457 | Decayed_P(t)=201 | Input=1 | Spike=1
+# KERNEL: T=375000 | Input=1 | Spike=1
+# KERNEL: T=375000 | Updated_P(t)=256 | Decayed_P(t)=0 | Input=1 | Spike=0
+# KERNEL: T=385000 | Input=1 | Spike=0
+# KERNEL: T=385000 | Updated_P(t)=507 | Decayed_P(t)=251 | Input=1 | Spike=1
+# KERNEL: 
+# KERNEL: Simulation complete.
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (70): $finish called.
+# KERNEL: Time: 390 ns,  Iteration: 0,  Instance: /lif_neuron_tb,  Process: @INITIAL#33_1@.
+# KERNEL: stopped at time: 390 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Done
