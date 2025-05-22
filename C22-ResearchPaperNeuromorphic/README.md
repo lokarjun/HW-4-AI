@@ -37,23 +37,9 @@ This repository includes a blog-style post discussing insights from the paper an
 
 ## 📄 Included Files
 
-- `neuromorphic_blog_post.md`: Full post with detailed answers and reflections
+- `Findings.docx`: Full post with detailed answers and reflections
 - `README.md`: This file
 
----
-
-## 🔗 Colab Notebook
-
-_You can add your Google Colab notebook link here (if applicable):_  
-[Open in Colab](https://colab.research.google.com/)
-
----
-
-## 🧰 Tools Used
-
-- Nature research article
-- Google Colab (optional)
-- Markdown and Python for text processing
 
 ---
 
