@@ -34,10 +34,6 @@ The goal is to compare and evaluate the performance of a pure Python implementat
 ## 🛠️ Installation Instructions
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/chacha20_hw_accelerator.git
-   cd chacha20_hw_accelerator
-   ```
 
 2. **Set up Python + Cocotb environment:**
    ```bash
@@ -75,7 +71,7 @@ openlane config.json
 After completion, view metrics under:
 
 ```
-runs/RUN_*/reports/
+runs/RUN_*/final/metrics.json
 ```
 
 ---
@@ -120,7 +116,7 @@ This project was developed with the help of **ChatGPT (OpenAI GPT-4o)**. ChatGPT
 
 ## 🧠 Contributors
 
-- **You!** (Add your name/email/GitHub here)
+- Lokarjun Raamesh (lokarjun@pdx.edu)
 - PSU ECE 510 Project - Spring 2025
 
 ---
