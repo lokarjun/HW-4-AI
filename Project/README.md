@@ -116,7 +116,7 @@ This project was developed with the help of **ChatGPT (OpenAI GPT-4o)**. ChatGPT
 
 ## 🧠 Contributors
 
-- Lokarjun Raamesh (lokarjun@pdx.edu)
+- Lokarjun Ramesh (lokarjun@pdx.edu)
 - PSU ECE 510 Project - Spring 2025
 
 ---
