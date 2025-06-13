@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1749283582" />
+    <testcase name="test_chacha20_batch" classname="test_chacha20_batch" file="/home/sirim/Loki_HW_AI/test_chacha20_batch.py" lineno="9" time="219.11943817138672" sim_time_ns="24374990.001" ratio_time="111240.65580131156" />
+  </testsuite>
+</testsuites>

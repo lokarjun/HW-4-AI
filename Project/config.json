@@ -1,0 +1,16 @@
+/*
+config.json
+
+OpenLane configuration for synthesizing, placing-and-routing, and verifying the
+ChaCha20 hardware design. Specifies top-level module (chacha20_wrapper),
+clock port and period, and Verilog source list. Ensures reproducible hardware
+synthesis and layout with minimal manual steps.
+*/
+
+{
+  "DESIGN_NAME": "chacha20_wrapper",
+  "VERILOG_FILES": ["chacha20_wrapper.sv", "chacha20core.sv"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10,
+  "SDC_FILE": "config.sdc"
+}

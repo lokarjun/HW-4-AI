@@ -1,0 +1,35 @@
+# =============================================================================
+# Makefile for ChaCha20 Core Simulation
+#
+# Description:
+# This Makefile sets up and runs the cocotb testbench to simulate and verify 
+# the standalone ChaCha20 hardware core module using your chosen simulator 
+# (e.g., Verilator or Questasim). It automates compiling the core SystemVerilog 
+# design, launching the Python-based cocotb test, and cleaning up build files.
+#
+# Usage:
+#   make         - Compile and run the cocotb testbench for the core
+#   make clean   - Remove generated build files and simulation outputs
+#
+# Notes:
+# - Adjust the TOPLEVEL, MODULE, and VERILOG_SOURCES variables as needed.
+# - Ensure your simulator is correctly installed and in your PATH.
+
+TOPLEVEL_LANG = verilog
+SIM = verilator
+
+# Name of the top-level SystemVerilog module
+TOPLEVEL = chacha20_core
+
+# Name of your cocotb testbench Python file (without .py)
+MODULE = test_chacha20
+
+# Path to your SystemVerilog design source
+VERILOG_SOURCES = $(shell pwd)/chacha20core.sv
+
+# Optional: Path to your Python interpreter
+# PYTHON = python3
+
+# Include cocotb makefiles
+COCOTB_MAKE := $(shell cocotb-config --makefiles)
+include $(COCOTB_MAKE)/Makefile.sim

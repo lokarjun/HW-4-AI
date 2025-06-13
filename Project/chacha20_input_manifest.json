@@ -1,0 +1,37 @@
+// chacha20_input_manifest.json
+/*
+Description:
+- JSON file listing batch test configurations for Cocotb.
+- Contains keys, nonces, counters, and pointers to pre-generated input files.
+- Used by `test_chacha20_batch.py` to feed the RTL core with realistic multi-MB workloads.
+
+Role:
+- Organizes large input data for repeatable hardware benchmarking.
+*/
+
+
+{
+  "tests": [
+    {
+      "option": "1",
+      "key": "1a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f809",
+      "counter": "00000001",
+      "nonce": "00112233445566778899aabb",
+      "text_file": "plain_text.txt"
+    },
+    {
+      "option": "2",
+      "key": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+      "counter": "deadbeef",
+      "nonce": "cafebabecafebabecafebabe",
+      "text_file": "ascii_text.txt"
+    },
+    {
+      "option": "3",
+      "key": "ffeeddccbbaa99887766554433221100ffeeddccbbaa99887766554433221100",
+      "counter": "01020304",
+      "nonce": "a1b2c3d4e5f60718293a4b5c",
+      "text_file": "hex_text.txt"
+    }
+  ]
+}

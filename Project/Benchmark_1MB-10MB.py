@@ -1,3 +1,13 @@
+"""
+Benchmark_1MB-10MB.py
+
+This script benchmarks the execution time of the pure Python ChaCha20 implementation
+across larger message sizes (1 MB to 10 MB). It automates multiple runs, records durations,
+and plots how performance scales with data size. The results guide selection of realistic
+workload sizes for hardware-software co-design.
+"""
+
+
 import cProfile
 import pstats
 import io

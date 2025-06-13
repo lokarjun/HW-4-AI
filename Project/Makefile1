@@ -1,0 +1,34 @@
+# =============================================================================
+# Makefile for ChaCha20 Batch Test Simulation
+#
+# Description:
+# This Makefile configures and runs the cocotb batch-mode testbench 
+# for the ChaCha20 hardware accelerator project. It uses pre-generated 
+# input files (JSON manifest) to drive multi-block encryption workloads 
+# through the hardware design and measures execution time.
+#
+# Usage:
+#   make         - Compile and run the cocotb batch testbench
+#   make clean   - Remove generated simulation files and outputs
+#
+# Notes:
+# - Designed to validate end-to-end batch processing with 2MB messages.
+# - Be sure to adjust TOPLEVEL, MODULE, and VERILOG_SOURCES for your wrapper 
+#   or top-level module as needed.
+
+# Language and simulator
+TOPLEVEL_LANG = verilog
+SIM = verilator
+
+# Top-level module name in SystemVerilog
+TOPLEVEL = chacha20_core
+
+# Python test module name (without .py)
+MODULE = test_chacha20_batch
+
+# Source files
+VERILOG_SOURCES = $(shell pwd)/chacha20core.sv
+
+# Include Cocotb makefiles
+COCOTB_MAKE := $(shell cocotb-config --makefiles)
+include $(COCOTB_MAKE)/Makefile.sim

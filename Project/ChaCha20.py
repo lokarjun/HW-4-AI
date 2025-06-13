@@ -1,12 +1,18 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Thu Feb 10 2023
+ChaCha20.py
 
-@author: iluzioDev
+Description:
+- This is the **original Python implementation** of the ChaCha20 stream cipher algorithm.
+- It includes CLI options to cipher plain text, ASCII code, or hex input.
+- Used for initial software-only benchmarking and as a functional reference for hardware verification.
 
-This script implements the ChaCha20 stream cipher algorithm.
+Source:
+- Adapted from open-source GitHub ChaCha20 reference.
+
+Role:
+- Serves as golden model for correctness.
 """
+
 
 # Receives a number or string containing an hexadecimal number in multiple possible formats
 # ('0xAAAA', 'AAAA', 'AA:AA', 'AA : AA'...) and returns a hexadecimal in format: 'AAAA'

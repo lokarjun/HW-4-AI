@@ -1,3 +1,14 @@
+"""
+chacha20_reference.py
+
+Description:
+- A **stripped-down Python module** containing only the core ChaCha20 block function and helper routines.
+- No CLI; no input/output.
+- Clean and efficient — intended for use **inside the Cocotb testbench** as the software reference model to verify the RTL core.
+
+Role:
+- Used as the trusted golden reference for core correctness testing.
+"""
 
 def truncate(x):
     return x & 0xFFFFFFFF
@@ -27,3 +38,4 @@ def chacha_block(input_state):
         x[2], x[7], x[8], x[13] = quarter_round(x[2], x[7], x[8], x[13])
         x[3], x[4], x[9], x[14] = quarter_round(x[3], x[4], x[9], x[14])
     return x
+

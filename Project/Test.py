@@ -1,3 +1,12 @@
+"""
+Test.py
+
+This test harness automates correctness and performance validation for the
+pure Python ChaCha20 cipher. It uses pre-generated inputs and mocked user input
+to test different ciphering options (plain, ASCII, hex). It supports profiling
+and ensures the software-only baseline is robust before hardware offloading.
+"""
+
 import cProfile
 import pstats
 import io

@@ -1,3 +1,12 @@
+"""
+PreGenerateInputs.py
+
+Utility script to pre-generate large test input files (plain text, ASCII, and hex)
+for benchmarking and hardware verification. Produces up to 2 MB per input type,
+avoiding runtime random generation overhead. Ensures consistent, reproducible
+inputs for fair performance testing.
+"""
+
 import random
 import string
 import os

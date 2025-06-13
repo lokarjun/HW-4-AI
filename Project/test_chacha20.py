@@ -1,3 +1,16 @@
+"""
+test_chacha20.py
+
+Description:
+- Basic **Cocotb testbench** for verifying the ChaCha20 core (`chacha20core.sv`).
+- Compares RTL output against the Python reference model for small test cases.
+- Tests quarter-round correctness and block-level output.
+
+Role:
+- Validates that hardware core matches the golden Python implementation.
+"""
+
+
 import cocotb
 from cocotb.triggers import RisingEdge, Timer
 from cocotb.result import TestFailure
@@ -59,3 +72,4 @@ async def test_chacha20_core(dut):
             raise TestFailure(f"Mismatch:\nHW : {hw_out}\nSW : {expected_key_stream}")
 
     dut._log.info("All test cases passed!")
+

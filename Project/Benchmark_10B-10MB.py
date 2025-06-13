@@ -1,3 +1,13 @@
+"""
+Benchmark_10B-10MB.py
+
+This script benchmarks the pure Python ChaCha20 implementation for a wide range of
+message sizes, from 10 bytes up to 10 MB. It logs execution times for each size,
+providing fine-grained insight into algorithm scaling. This helped identify 2 MB
+as a representative test size for hardware acceleration.
+"""
+
+
 import cProfile
 import pstats
 import io
