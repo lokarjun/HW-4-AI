@@ -1,7 +1,7 @@
 
 # Hardware for AI and ML — ECE 410/510
 
-This repository contains Lokarjun Ramesh’s complete coursework, design challenges, and project work for the **Hardware for AI and Machine Learning** course (Spring 2025).
+This repository contains my complete weekly challenges and project work for the **Hardware for AI and Machine Learning** course (Spring 2025).
 
 ## 📚 **Course Overview**
 This course explores how modern hardware architectures support AI and ML workloads. Topics covered include:
@@ -15,8 +15,8 @@ This course explores how modern hardware architectures support AI and ML workloa
 
 ## ✅ **Contents**
 
-### 🔬 **Design Challenges**
-I completed **18 out of 24 challenges**, with some challenges merged into the comprehensive project to avoid redundancy. Each challenge folder contains code, results, and documentation:
+### 🔬 **Weekly Challenges**
+I completed **18 weekly challenges**, with some challenges merged into the comprehensive project to avoid redundancy. Each challenge folder contains code, results, and documentation:
 - **C1**: Beyond CMOS
 - **C2**: Intrinsic and designed computation
 - **C3**: Physical systems solving differential equations
@@ -43,10 +43,6 @@ I completed **18 out of 24 challenges**, with some challenges merged into the co
 - Completed physical synthesis using OpenLane with good performance results
 - Demonstrates end-to-end hardware-software co-design and full toolchain usage
 
-## 🏆 **Performance**
-- **Midterm quiz:** 96%
-- **Final quiz:** 93.75%
-- Attended all classes and participated in Codefest
 
 ## 🔑 **Languages & Tools**
 - **Python** — Algorithm prototyping, modeling, and simulation
@@ -57,15 +53,6 @@ I completed **18 out of 24 challenges**, with some challenges merged into the co
 
 ## 📂 **Repository Structure**
 Each folder is organized by challenge number and topic for easy navigation. The `Project` folder contains the final integrated hardware accelerator design, verification scripts, benchmarks, and synthesis artifacts.
-
-## 💡 **Key Skills Gained**
-- Hardware-software co-design
-- GPU programming for ML acceleration
-- Systolic array architectures
-- Neuromorphic computing concepts
-- Memristor modeling
-- Benchmarking and performance analysis
-- End-to-end RTL to physical synthesis flow using OpenLane
 
 ## 📜 **License**
 This repository is for academic and demonstration purposes only.
